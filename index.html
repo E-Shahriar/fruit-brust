@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Brust</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.8.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="w-4/5 m-auto mt-10">
+        <div class="navbar bg-green-400 rounded-full p-5">
+            <ul class="text-white ml-5">
+                <li class="mx-2"><a href="#">Home</a></li>
+                <li class="mr-2"><a href="#">About Us</a></li>
+                <li class="mr-2"><a href="#">Shop</a></li>
+                <li><a href="#">All Fruits</a></li>
+            </ul>
+            <div class="flex-1 justify-center">
+              <img src="images/logo.png" alt="">
+              <a class="btn btn-ghost normal-case text-2xl text-white">Fruit Brust</a>
+            </div>
+            <div class="flex-none gap-2 mr-5">
+              <div class="form-control">
+                <input type="text" placeholder="Search here" class="input input-bordered w-24 md:w-auto rounded-3xl"/>
+              </div>
+            </div>
+          </div>
+          <div class="slidar my-9">
+            <div class="carousel w-full">
+              <div id="slide1" class="carousel-item relative w-full">
+                <img src="images/banner1.png" class="w-full brightness-50" />
+                <div class="absolute flex justify-between items-center transform -translate-y-1/2 left-5 right-5 top-1/2">
+                  <a href="#slide4" class="btn btn-circle">❮</a>
+                  <div class="b-middle text-center m-auto text-white leading-8">
+                    <h1 class="font-bold text-2xl">Exotic tastes at your doorstep</h1>
+                    <p class="text-md">We supply highly quality organic products</p>
+                    <button class="btn btn-primary text-lg capitalize">Shop Now</button>
+                  </div>
+                  <a href="#slide2" class="btn btn-circle">❯</a>
+                </div>
+              </div> 
+              <div id="slide2" class="carousel-item relative w-full">
+                <img src="images/banner2.png" class="w-full brightness-50" />
+                <div class="absolute flex justify-between items-center transform -translate-y-1/2 left-5 right-5 top-1/2">
+                  <a href="#slide1" class="btn btn-circle">❮</a>
+                  <div class="b-middle text-center m-auto text-white leading-8">
+                    <h1 class="font-bold text-2xl">Exotic tastes at your doorstep</h1>
+                    <p class="text-md">We supply highly quality organic products</p>
+                    <button class="btn btn-primary text-lg capitalize">Shop Now</button>
+                  </div>
+                  <a href="#slide3" class="btn btn-circle">❯</a>
+                </div>
+              </div> 
+              <div id="slide3" class="carousel-item relative w-full">
+                <img src="images/banner3.png" class="w-full brightness-50" />
+                <div class="absolute flex justify-between items-center transform -translate-y-1/2 left-5 right-5 top-1/2">
+                  <a href="#slide2" class="btn btn-circle">❮</a>
+                  <div class="b-middle text-center m-auto text-white leading-8">
+                    <h1 class="font-bold text-2xl">Exotic tastes at your doorstep</h1>
+                    <p class="text-md">We supply highly quality organic products</p>
+                    <button class="btn btn-primary text-lg capitalize">Shop Now</button>
+                  </div>
+                  <a href="#slide4" class="btn btn-circle">❯</a>
+                </div>
+              </div> 
+              <div id="slide4" class="carousel-item relative w-full">
+                <img src="images/banner4.png" class="w-full brightness-50" />
+                <div class="absolute flex justify-between items-center transform -translate-y-1/2 left-5 right-5 top-1/2">
+                  <a href="#slide3" class="btn btn-circle">❮</a>
+                  <div class="b-middle text-center m-auto text-white leading-8">
+                    <h1 class="font-bold text-2xl">Exotic tastes at your doorstep</h1>
+                    <p class="text-md">We supply highly quality organic products</p>
+                    <button class="btn btn-primary text-lg capitalize">Shop Now</button>
+                  </div>
+                  <a href="#slide1" class="btn btn-circle">❯</a>
+                </div>
+              </div>
+            </div>
+          </div>
+    </header>
+
+    <main class="w-4/5 m-auto">
+      <section class="deal">
+        <div class="d-t flex justify-between">
+          <div class="d-l">
+            <h2>Deal of the day</h2>
+            <p>
+              Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> latin litarature from 45 BC, making it over 2000 years old
+            </p>
+          </div>
+          <div class="d-r">
+            <div class="flex gap-5">
+              <div class="block"> 
+                <span class="countdown font-mono text-4xl">
+                  <span style="--value:15;"></span>:
+                </span>
+                <p>days</p>
+              </div>
+              <div>
+                <span class="countdown font-mono text-4xl">
+                  <span style="--value:10;"></span>:
+                </span>
+                <p>hours</p>
+              </div> 
+              <div>
+                <span class="countdown font-mono text-4xl">
+                  <span style="--value:24;"></span>:
+                </span>
+                <p>min</p>
+              </div> 
+              <div>
+                <span class="countdown font-mono text-4xl">
+                  <span style="--value:56;"></span>
+                </span>
+                <p>sec</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-b flex justify-between my-9">
+          <div class="card w-64 bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="/images/fruit6.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">12.90$ - 18.85$</h2>
+              <p class="text-xs">Apples</p>
+              <div class="icons flex">
+                <img class="w-4 mr-1" src="images/star.svg" alt="">
+                <img class="w-4 mr-1" src="images/star.svg" alt="">
+                <img class="w-4 mr-1" src="images/2107957.png" alt="">
+                <img class="w-4 mr-1" src="images/2107957.png" alt="">
+                <img class="w-4" src="images/2107957.png" alt="">
+              </div>
+              <a class="text-orange-500" href="#">Details</a>
+            </div>
+          </div>
+          <div class="card w-64 bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="/images/fruit7.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">12.90$ - 18.85$</h2>
+              <p class="text-xs">Orange</p>
+              <div class="icons flex">
+                <img class="w-4 mr-1" src="images/star.svg" alt="">
+                <img class="w-4 mr-1" src="images/star.svg" alt="">
+                <img class="w-4 mr-1" src="images/2107957.png" alt="">
+                <img class="w-4 mr-1" src="images/2107957.png" alt="">
+                <img class="w-4" src="images/2107957.png" alt="">
+              </div>
+              <a class="text-orange-500" href="#">Details</a>
+            </div>
+          </div>
+          <div class="card w-64 bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="/images/fruit8.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">12.90$ - 18.85$</h2>
+              <p class="text-xs">Red Dragon</p>
+              <div class="icons flex">
+                <img class="w-4 mr-1" src="images/star.svg" alt="">
+                <img class="w-4 mr-1" src="images/star.svg" alt="">
+                <img class="w-4 mr-1" src="images/2107957.png" alt="">
+                <img class="w-4 mr-1" src="images/2107957.png" alt="">
+                <img class="w-4" src="images/2107957.png" alt="">
+              </div>
+              <a class="text-orange-500" href="#">Details</a>
+            </div>
+          </div>
+          <div class="card w-64 bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="/images/fruit9.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">12.90$ - 18.85$</h2>
+              <p class="text-xs">Banana</p>
+              <div class="icons flex">
+                <img class="w-4 mr-1" src="images/star.svg" alt="">
+                <img class="w-4 mr-1" src="images/star.svg" alt="">
+                <img class="w-4 mr-1" src="images/2107957.png" alt="">
+                <img class="w-4 mr-1" src="images/2107957.png" alt="">
+                <img class="w-4" src="images/2107957.png" alt="">
+              </div>
+              <a class="text-orange-500" href="#">Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-center mb-9">
+          <button class="btn btn-primary capitalize">Shop All</button>
+        </div>
+      </section>
+
+      <section class="banner my-9">
+        <div class="b-container relative">
+          <img src="images/banner1.png" alt="" class="brightness-50">
+          <div class="b-items absolute -translate-y-1/2 left-5 right-5 top-1/2">
+            <div class="b-text text-center text-white">
+              <h2 class="text-2xl font-bold">Meet the team section</h2>
+              <p>
+                Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> latin litarature from 45 BC, making it over 2000 years old
+              </p>
+            </div>
+            <div class="b-persons mt-12 gap-16 flex justify-center">
+              <div class="p-details card w-40 text-center text-white">
+                <img src="images/member1.png" alt="" class="w-32 h-32 mx-auto">
+                <h2 class="font-bold text-xl mt-3">Awlad Hossain</h2>
+                <p class="text-xs">Fruits Expert</p>
+                <div class="pmi flex justify-center mt-3">
+                  <a href="#"><img src="icons/facebook.png" alt="" class="hover:outline outline-2 rounded"></a>
+                  <a href="#"><img src="icons/insta.png" alt="" class="mx-3 hover:outline outline-2 rounded"></a>
+                  <a href="#"><img src="icons/twitter.png" alt="" class="hover:outline outline-2 rounded"></a>
+                </div>
+              </div>
+              <div class="p-details card w-40 text-center text-white">
+                <img src="images/member2.png" alt="" class="w-32 h-32 mx-auto">
+                <h2 class="font-bold text-xl mt-3">Safia Chowdhuri</h2>
+                <p class="text-xs">Fruits Expert</p>
+                <div class="pmi flex justify-center mt-3">
+                  <a href="#"><img src="icons/facebook.png" alt="" class="hover:outline outline-2 rounded"></a>
+                  <a href="#"><img src="icons/insta.png" alt="" class="mx-3 hover:outline outline-2 rounded"></a>
+                  <a href="#"><img src="icons/twitter.png" alt="" class="hover:outline outline-2 rounded"></a>
+                </div>
+              </div>
+              <div class="p-details card w-40 text-center text-white">
+                <img src="images/member3.png" alt="" class="w-32 h-32 mx-auto">
+                <h2 class="font-bold text-xl mt-3">Rokib Hossain</h2>
+                <p class="text-xs">Fruits Expert</p>
+                <div class="pmi flex justify-center mt-3">
+                  <a href="#"><img src="icons/facebook.png" alt="" class="hover:outline outline-2 rounded"></a>
+                  <a href="#"><img src="icons/insta.png" alt="" class="mx-3 hover:outline outline-2 rounded"></a>
+                  <a href="#"><img src="icons/twitter.png" alt="" class="hover:outline outline-2 rounded"></a>
+                </div>
+              </div>
+              <div class="p-details card w-40 text-center text-white">
+                <img src="images/member4.png" alt="" class="w-32 h-32 mx-auto">
+                <h2 class="font-bold text-xl mt-3">Chaity</h2>
+                <p class="text-xs">Fruits Expert</p>
+                <div class="pmi flex justify-center mt-3">
+                  <a href="#"><img src="icons/facebook.png" alt="" class="hover:outline outline-2 rounded"></a>
+                  <a href="#"><img src="icons/insta.png" alt="" class="mx-3 hover:outline outline-2 rounded"></a>
+                  <a href="#"><img src="icons/twitter.png" alt="" class="hover:outline outline-2 rounded"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+</body>
+</html>
